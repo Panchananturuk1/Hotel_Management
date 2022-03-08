@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    /* background-image: url("hotel3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity:0.5; */
+    
+    
+    /* width:100%; */
+}
+
+
+
+    .images{
+        opacity: 0.8;
+        /* margin: 0px; */
+        /* width:100%; */
+
+
+        /* margin-top: 0px;
+        background-image: url("hotel2.jpg");
+        width: 100vw;
+        height: 100vh; 
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative; */
+
+        background-image: url("hotel2.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+
+    }
+
+
+
+/* .container{
+    margin-top:0px;
+    width: 100%;
+    height: 30%;
+    background-color: khaki;
+    border: 1px solid black;
+    display: inline-block;
+   
+} */
+.navbar{
+  
+    margin: 0px;
+    background-color: #303234;
+    border: 1px solid red;
+    list-style: none;
+    overflow: auto;
+}
+
+
+/* li{
+text-decoration: none;
+    list-style: none;
+} */
+
+.navbar li{
+   
+    float: right;
+    padding: 2px;
+}
+
+.navbar ul li{
+    float: left;
+   
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: large;
+    
+}
+
+
+
+
+.navbar ul li{
+    /* font-size:xx-large; */
+    list-style: none;
+    color: white;
+}
+
+.navbar li a{
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    color:white;
+    padding: 15px 20px;
+    
+
+}
+
+.position
+{
+    position: absolute;
+    top:35%;
+    left:45%;
+    color: red;
+    font-size: 40px;
+}
+
+.navbar li a:hover{
+    background-color: #446190;
+    color: red;
+}
+
+/* .navbar li a{
+display: block;
+color:black;
+
+text-decoration: none;
+padding:15px 20px;
+} */
+
+.clr1{
+    color:red;
+    font-size: 50px;
+
+}
+
+.clr2{
+    color:white;
+    font-size: 45px;
+}
