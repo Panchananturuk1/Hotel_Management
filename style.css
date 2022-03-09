@@ -1,13 +1,9 @@
 body{
     margin: 0px;
-    /* background-image: url("hotel3.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    opacity:0.5; */
-    
-    
-    /* width:100%; */
+}
+
+.center{
+    text-align: center;
 }
 
 
@@ -16,8 +12,6 @@ body{
         opacity: 0.8;
         /* margin: 0px; */
         /* width:100%; */
-
-
         /* margin-top: 0px;
         background-image: url("hotel2.jpg");
         width: 100vw;
@@ -26,11 +20,11 @@ body{
         background-repeat: no-repeat;
         position: relative; */
 
-        background-image: url("hotel2.jpg");
+        background-image: url("hotel.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 70vh;
 
     }
 
@@ -49,16 +43,12 @@ body{
   
     margin: 0px;
     background-color: #303234;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     list-style: none;
     overflow: auto;
 }
 
 
-/* li{
-text-decoration: none;
-    list-style: none;
-} */
 
 .navbar li{
    
@@ -66,14 +56,11 @@ text-decoration: none;
     padding: 2px;
 }
 
-.navbar ul li{
-    float: left;
-   
-}
+
 
 .navbar ul li a{
     text-decoration: none;
-    font-size: large;
+    /* font-size: large; */
     
 }
 
@@ -82,8 +69,10 @@ text-decoration: none;
 
 .navbar ul li{
     /* font-size:xx-large; */
+    float: left;
     list-style: none;
     color: white;
+    font-size: xx-large;
 }
 
 .navbar li a{
@@ -100,9 +89,31 @@ text-decoration: none;
 {
     position: absolute;
     top:35%;
-    left:45%;
+    left:42%;
+    font-family: Arial Black;
     color: red;
     font-size: 40px;
+}
+
+.position2{
+    position: absolute;
+    top:42%;
+    left:20%;
+    display: block;
+    color: #33ccff;
+    font-size: 20px;
+}
+
+.position3 a{
+
+    position: absolute;
+    top:55%;
+    left:47%;
+    text-decoration: none;
+   display: block;
+    background-color: #303234;
+    color: white;
+    padding: 15px;
 }
 
 .navbar li a:hover{
@@ -127,4 +138,44 @@ padding:15px 20px;
 .clr2{
     color:white;
     font-size: 45px;
+}
+
+.border{
+    display: flex;
+    /* display: inline-block; */
+    width: 100%;
+    border: 1px solid black;
+    background-color: #242624;
+}
+
+.building-img{
+    border: 1px solid black;
+    background-image: url("./building.jpg");
+    width: 50%;
+    height: 370px;
+    /* margin-left: 10%; */
+    background-size:cover ;
+    background-repeat: no-repeat;
+
+
+}
+
+.history{
+    width: 50%;
+    padding: 18px;
+   
+    border: 1px solid black;
+  
+    text-align: center;
+}
+.history h1 span{
+    color: khaki;
+}
+.history h1{
+    color: white;
+}
+
+.history p{
+    color: white;
+    font-size: x-large;
 }
