@@ -179,3 +179,47 @@ padding:15px 20px;
     color: white;
     font-size: x-large;
 }
+
+.read-more a{
+    border: 1px solid black;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 10px;
+    color: black;
+    width: 20%;
+    background-color: white;
+    
+}
+
+.last-section{
+    width: 100%;
+    /* padding: 0px;
+    margin: 0px; */
+    background-color: azure;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+
+    padding : 0;
+    margin : 0;
+    line-height : 20px;
+}
+
+.last-content{
+    /* margin-top: 0px; */
+    padding: 29px;
+   
+    width:33%;
+    
+}
+
+.last-section img{
+    /* padding: 0px; */
+   
+    width:130px;
+    height:100px;
+}
+
+.free-meals{
+    background-color: khaki;
+}
