@@ -144,12 +144,12 @@ padding:15px 20px;
     display: flex;
     /* display: inline-block; */
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: #242624;
 }
 
 .building-img{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-image: url("./building.jpg");
     width: 50%;
     height: 370px;
@@ -191,12 +191,16 @@ padding:15px 20px;
     
 }
 
+.read-more a:hover{
+    background-color: green;
+}
+
 .last-section{
     width: 100%;
     /* padding: 0px;
     margin: 0px; */
     background-color: azure;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
     display: flex;
 
@@ -222,4 +226,15 @@ padding:15px 20px;
 
 .free-meals{
     background-color: khaki;
+}
+
+.footer{
+    margin: 0px;
+    width: 98.3%;
+    height: 35px;
+    text-align: center;
+    padding: 15px;
+    background-color: grey;
+    margin-bottom: 0px;
+    /* border: 1px solid black; */
 }
