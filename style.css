@@ -2,11 +2,11 @@ body{
     margin: 0px;
 }
 
+/* * {box-sizing: border-box} */
+
 .center{
     text-align: center;
 }
-
-
 
     .images{
         opacity: 0.8;
@@ -63,9 +63,6 @@ body{
     /* font-size: large; */
     
 }
-
-
-
 
 .navbar ul li{
     /* font-size:xx-large; */
@@ -227,6 +224,120 @@ padding:15px 20px;
 .free-meals{
     background-color: khaki;
 }
+
+.about{
+    padding: 40px;
+    /* border: 1px solid black; */
+    background-color: #FAF9F6;
+    /* width: 100%; */
+    display: flex;
+}
+
+.about-img{
+    
+    background-image: url("./about.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    width: 26%;
+    height: 38%;
+    /* border: 2px solid black; */
+    border-radius: 100%;
+    /* display: inline-block; */
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+
+/* .image-about{
+    background-size:cover ;
+    background-repeat: no-repeat;
+    width:40%;
+    height:140px;
+} */
+
+.about-content{
+    margin-left: 7%;
+}
+
+.about-content p{
+    font-size: x-large;
+}
+
+.color-khaki{
+    color: khaki;
+}
+
+.review-box{
+    padding: 10px;
+    margin-left: 15%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: #92f7cb;
+    width:70%;
+    display: flex;
+}
+
+
+
+.imgset{
+    width: 9%;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.contact{
+    font-size: x-large;
+    width: 70%;
+    /* border: 1px solid black; */
+    overflow: auto;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    /* right: 50px; */
+    display: inline-block;
+    padding: 30px;
+  
+    /* background-color: #303234; */
+}
+
+
+.contact h1 span{
+    color: khaki;
+   
+}
+input[type=text], input[type=email]{
+    width: 100%;
+    display: inline-;
+    border-radius: 6px;
+    /* padding: 5px;
+    margin: 10px; */
+
+    padding: 10px; 
+    margin: 5px 0 10px 0;
+  
+}
+
+input[type=text]:focus, input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  input[type=submit]{
+      border: 1px solid black;
+      padding: 10px;
+      font-size: large;
+      background-color: #446190;
+      color:white;
+  }
+
+  input[type=submit]:hover{
+      color: aqua;
+  }
+
+
+
+
+
 
 .footer{
     margin: 0px;
